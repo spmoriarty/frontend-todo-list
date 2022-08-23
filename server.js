@@ -1,4 +1,4 @@
-const app = require('./lib/app');
+const app = require('./app.js');
 const pool = require('./lib/utils/pool');
 
 const API_URL = process.env.API_URL || 'http://localhost';
